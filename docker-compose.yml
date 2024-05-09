@@ -1,0 +1,15 @@
+services:
+  nuxt:
+    container_name: zampo-front
+    build:
+      context: .
+      dockerfile: DockerFile
+    command: /start
+    volumes:
+      - ./zampo:/app/
+    ports:
+      - 3000:3000
+      - 24678:24678
+      
+    
+    

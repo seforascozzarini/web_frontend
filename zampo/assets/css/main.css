@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('https://fonts.googleapis.com/css2?family=Questrial&display=swap') format('truetype');
+}
+
+/* * {
+    font-family: 'Questrial', sans-serif !important;
+}
+
+.v-application{
+    font-family: 'Questrial', sans-serif !important;
+} */
+
+
+.clickable-only-cursor {
+    cursor: pointer;
+}
+
+
+.clickable {
+    cursor: pointer;
+}
+
+.clickable:hover {
+    filter: brightness(110%);
+}
+
+.m-content {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+.btn-icon {
+    border-radius: 4px !important;
+}
+
+.c-rounded{
+    border-radius: 38px !important;
+}
+
+.common-alert {
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    z-index: 1000;
+}
